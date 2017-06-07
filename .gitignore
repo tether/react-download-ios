@@ -59,4 +59,4 @@ typings/
 
 
 # ignore build files
-test/build.js
+example/bundle.js
