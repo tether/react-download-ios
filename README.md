@@ -5,9 +5,9 @@
 [![guidelines](https://tether.github.io/contribution-guide/badge-guidelines.svg)](https://github.com/tether/contribution-guide)
 
 Apple Store download [React](https://facebook.github.io/react/) component built for [WORKID](http://work.id).
-  * **Automatic redirect**: Just give your Apple App id to generate a badge redirecting users to your application.
-
 ## Usage
+
+Just pass your application id:
 
 ```js
 import Badge from 'react-download-ios'
