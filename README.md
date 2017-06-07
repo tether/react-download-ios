@@ -1,6 +1,5 @@
 # React-Download-Ios
 
-[![Build Status](https://travis-ci.org/tether/react-download-ios.svg?branch=master)](https://travis-ci.org/tether/react-download-ios)
 [![NPM](https://img.shields.io/npm/v/react-download-ios.svg)](https://www.npmjs.com/package/react-download-ios)
 [![Downloads](https://img.shields.io/npm/dm/react-download-ios.svg)](http://npm-stat.com/charts.html?package=react-download-ios)
 [![guidelines](https://tether.github.io/contribution-guide/badge-guidelines.svg)](https://github.com/tether/contribution-guide)
