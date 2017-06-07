@@ -3,9 +3,9 @@
   "name": "react-download-ios",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "browserify test/badge.js -o test/build.js -t [ babelify --presets [ es2015 react ] ]"
+    "test": "browserify test/badge.js -o test/build.js -t [ babelify --presets [ es2015 react ] ] -dv"
   },
   "repository": {
     "type": "git",
@@ -19,13 +19,19 @@
   "bugs": {
     "url": "https://github.com/tether/react-download-ios/issues"
   },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
   "homepage": "https://github.com/tether/react-download-ios#readme",
   "devDependencies": {
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "babelify": "^7.3.0",
     "browserify": "^14.4.0",
-    "react-dom": "^15.5.4"
+    "react-dom": "^15.5.4",
+    "react-fatigue-dev": "github:tj/react-fatigue-dev#704f778"
   },
   "dependencies": {
     "react": "^15.5.4"
