@@ -1,12 +1,21 @@
 
 /**
+ * Dependencies.
+ */
+
+import React from 'react'
+
+
+/**
  * This is a simple description.
  *
  * @api public
  */
 
-module.exports = function () {
-  // do something
+export default () => {
+  return (
+    <a href="/hello">
+      <img src="http://tether.github.com/react-download-ios/badge.png"></img>
+    </a>
+  )
 }
-
-  
