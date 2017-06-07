@@ -20,6 +20,6 @@ document.body.appendChild(root)
  */
 
 ReactDOM.render(
-  <Badge  />,
+  <Badge id="id1208564443"/>,
   root
 )
