@@ -4,7 +4,8 @@
 [![Downloads](https://img.shields.io/npm/dm/react-download-ios.svg)](http://npm-stat.com/charts.html?package=react-download-ios)
 [![guidelines](https://tether.github.io/contribution-guide/badge-guidelines.svg)](https://github.com/tether/contribution-guide)
 
-Apple Store badge as a react component.
+Apple Store download [React](https://facebook.github.io/react/) component built for [WorkID](https://work.id).
+  * **Automatic redirect**: Just give your Apple App id to generate a badge redirecting users to your application.
 
 ## Usage
 
@@ -13,6 +14,8 @@ import Badge from 'react-download-ios'
 
 const badge = <Badge id="id1208564443" />
 ```
+
+![Example english badge](https://tether.github.io/react-download-ios/badge.png "Donwload badge")
 
 ## Installation
 
